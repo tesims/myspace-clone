@@ -1,112 +1,371 @@
-<!DOCTYPE html>
+
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #000;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        #header {
-            background-color: #00f;
-            padding: 10px;
-        }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | SpaceHey</title>
 
-        #header h1 {
-            margin: 0;
-            color: #fff;
-        }
+  <link rel="preconnect" href="https://static.spacehey.net" crossorigin>
+  <link rel="preconnect" href="https://cdn.spacehey.net" crossorigin>
 
-        #navigation {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-            padding: 10px;
-        }
+  <script src="https://spacehey.com/js/script.js?v=0.39" async></script>
+  
+  <link rel="stylesheet" href="https://spacehey.com/css/normalize.css">
+  <link rel="stylesheet" href="https://spacehey.com/css/my.css?c=d2869da4874e8ee7f4690ae5ccc17e6b468309019e0e10d23a7a22dfc3fa1473">
+  
+  <link rel="dns-prefetch" href="https://static.spacehey.net">
+  <link rel="dns-prefetch" href="https://cdn.spacehey.net">
 
-        #navigation a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px;
-            margin: 0 10px;
-        }
+  <link rel="shortcut icon" type="image/x-icon" href="https://spacehey.com/favicon.ico?v=2">
 
-        #navigation a:hover {
-            background-color: #555;
+  <meta name="title" content="Home | SpaceHey">
+  <meta name="description" content="SpaceHey is a retro social network focused on privacy and customizability. It's a friendly place to have fun, meet friends, and be creative. Join for free!">
 
-        #profile-container {
-            max-width: 600px;
-            margin: 50px auto;
-            background-color: #333;
-            padding: 20px;
-            border-radius: 10px;
-        }
-            
-        .section {
-            background-color: #333;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 10px;
-        }
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Home | SpaceHey">
+  <meta property="og:description" content="SpaceHey is a retro social network focused on privacy and customizability. It's a friendly place to have fun, meet friends, and be creative. Join for free!">
+  <meta property="og:image" content="https://spacehey.com/img/meta_o.png">
+  <meta property="og:site_name" content="SpaceHey">
 
-        #profile-pic {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
+  <meta property="twitter:site" content="@spacehey">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Home | SpaceHey">
+  <meta property="twitter:description" content="SpaceHey is a retro social network focused on privacy and customizability. It's a friendly place to have fun, meet friends, and be creative. Join for free!">
+  <meta property="twitter:image" content="https://spacehey.com/img/meta_o.png">
+  <meta name="apple-itunes-app" content="app-id=6464676228">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://spacehey.com/img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://spacehey.com/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://spacehey.com/img/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="https://spacehey.com/img/favicons/safari-pinned-tab.svg" color="#1D4ED8">
+  <link rel="manifest" href="https://spacehey.com/img/favicons/site.webmanifest">
+  <meta name="apple-mobile-web-app-title" content="SpaceHey">
+  <meta name="application-name" content="SpaceHey">
+  <meta name="msapplication-TileColor" content="#1D4ED8">
+  <meta name="msapplication-config" content="https://spacehey.com/img/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#1D4ED8">
 
-        h1, h2 {
-            color: #00f;
-        }
+  <link href="https://spacehey.com/opensearch.xml" rel="search" title="Search SpaceHey" type="application/opensearchdescription+xml">
 
-        .profile-info {
-            text-align: left;
-            margin-left: 20px;
-        }
-    </style>
+    
 </head>
-<body>
-    <div id="header">
-        <h1>MySpace</h1>
-    </div>
-    <div id="navigation">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-    </div>
-       <div class="section">
-        <h2>Section 1</h2>
-        <p>This is the content of section 1.</p>
-    </div>
+<body data-base="https://spacehey.com">
+<!-- [spacehey.com] SpaceHey Server: webserver-1 -->
 
-    <div class="section">
-        <h2>Section 2</h2>
-        <p>This is the content of section 2.</p>
+<div class="container">
+  <nav class="">
+            <div class="top">
+      <div class="left">
+        <a href="https://spacehey.com/home">
+                    <img class="logo logo-fallback" src="https://static.spacehey.net/img/logo_optimized.svg" alt="SpaceHey" fetchpriority="high" style="aspect-ratio: 55/14;">
+        </a>
+                                                    </div>
+      <div class="center">
+                              <form action="https://spacehey.com/search" role="search">
+                          <label for="q">Search Users:</label>
+              <div class="search-wrapper">
+                <input id="q" type="text" name="q" autocomplete="off">
+              </div>
+              <button type="submit">Search</button>
+            </form>
+                        </div>
+      <div class="right">
+        <a href="https://spacehey.com/help" rel="help">Help</a> | <form action="https://spacehey.com/logout" method="post" class="logout-form"><button class="logout-btn" type="submit" name="submit">LogOut</button></form>                    <br>
+          <div class="support-right">
+            <a href="https://spacehey.com/support">
+              Support us
+            </a>
+          </div>
+                        </div>
     </div>
+        <ul class="links">
+            <li class="active"><a href="https://spacehey.com/home">Home</a></li>
+      <li class=""><a href="https://spacehey.com/browse">Browse</a></li>
+      <li class=""><a href="https://spacehey.com/search">Search</a></li>
+      <li class=""><a href="https://im.spacehey.com">Messages</a></li>
+      <li class=""><a href="https://blog.spacehey.com">Blog</a></li>
+      <li class=""><a href="https://spacehey.com/bulletins">Bulletins</a></li>
+      <li class=""><a href="https://forum.spacehey.com/">Forum</a></li>
+      <li class=""><a href="https://groups.spacehey.com">Groups</a></li>
+      <li class=""><a href="https://layouts.spacehey.com">Layouts</a></li>
+            <li class=""><a href="https://spacehey.com/favorites">Favorites</a></li>
+      <li class=""><a href="https://spacehey.com/invite">Invite</a></li>
+            <li class=""><a href="https://spacehey.com/mobile" title="SpaceHey Mobile"><img src="https://static.spacehey.net/icons/new.png" class="icon" aria-hidden="true" loading="lazy" alt=""> App</a></li>
+      <li><a href="https://shop.spacehey.com/">Shop</a></li>
+      <li class=""><a href="https://spacehey.com/about">About</a></li>
+          </ul>
+    </nav>
+  <main>
 
-    <div class="section">
-        <h2>Section 3</h2>
-        <p>This is the content of section 3.</p>
-    </div>
+  
+      <p class="success email-verify-info">
+      <img src="https://static.spacehey.net/icons/information.png" class="icon" aria-hidden="true" loading="lazy" alt="">      Verify your Email Address to protect your Account and to appear in "New People". Your Email Address stays private.
+      <a href="/requestemailverification"><button>Verify Now &raquo;</button></a>
+    </p>
+      <div class="row profile user-home">
+      <div class="col w-40 left">
+
         
-    <div id="profile-container">
-        <img id="profile-pic" src="your_profile_picture_url.jpg" alt="Profile Picture">
-        <h1>Anna Sims</h1>
-        <h2>Creative Technologist</h2>
-        <div class="profile-info">
-            <p><strong>About Me:</strong> Creative Technologist</p>
-            <p><strong>Skills:</strong> HTML, CSS, JavaScript, Python, C++</p>
-            <p><strong>Contact:</strong> tesims@umich.edu</p>
+        <div class="general-about home-actions">
+          <div class="heading">
+            <h1>Hello, Syc!</h1>
+          </div>
+          <div class="inner">
+            <div class="profile-pic">
+              <a href="https://spacehey.com/profile?id=2437417">
+                <img class="pfp-fallback" src="https://static.spacehey.net/img/default/profilepic.png" alt="your profile picture">
+              </a>
+            </div>
+            <div class="details">
+              <p><a href="/edit">Edit Profile</a></p>
+              <p><a href="/editstatus">Edit Status</a></p>
+              <p><a href="/editlinks">Edit Your Links</a></p>
+              <p><a href="/editphoto">Add/Edit Photo</a></p>
+              <p><a href="https://blog.spacehey.com/user?id=2437417">Manage Blog</a></p>
+              <p><a href="/settings">Account Settings</a></p>
+            </div>
+            <div class="more-options">
+              <p>
+                                View My:
+                <a href="/profile?id=2437417">Profile</a>
+                | <a href="https://blog.spacehey.com/user?id=2437417">Blog</a>
+                | <a href="/userbulletins?id=2437417">Bulletins</a>
+                | <a href="https://forum.spacehey.com/user?id=2437417">Forum Topics</a>
+                | <a href="https://layouts.spacehey.com/user?id=2437417">Layouts</a>
+                | <a href="/friends?id=2437417">Friends</a>
+                | <a href="/blocked">Blocks</a>
+                | <a href="/requests">Requests</a>
+                              </p>
+              <p>My URL: <a href="https://spacehey.com/profile?id=2437417">https://spacehey.com/profile?id=2437417</a></p>
+            </div>
+          </div>
         </div>
+                <div class="contact">
+          <div class="heading">
+            <h4>My Mail</h4>
+          </div>
+          <div class="inner">
+                        <div class="f-row">
+              <div class="f-col">
+                <a href="https://im.spacehey.com">
+                  <img src="https://static.spacehey.net/icons/email.png" class="icon" aria-hidden="true" loading="lazy" alt="">                  instant messages                </a>
+              </div>
+              <div class="f-col">
+                <a href="https://im.spacehey.com">
+                  <img src="https://static.spacehey.net/icons/email_add.png" class="icon" aria-hidden="true" loading="lazy" alt="">                  send message
+                </a>
+              </div>
+            </div>
+            <div class="f-row">
+              <div class="f-col">
+                <a href="/bulletins">
+                  <img src="https://static.spacehey.net/icons/text_list_bullets.png" class="icon" aria-hidden="true" loading="lazy" alt="">                  bulletins
+                </a>
+              </div>
+              <div class="f-col">
+                <a href="/createbulletin">
+                  <img src="https://static.spacehey.net/icons/table_add.png" class="icon" aria-hidden="true" loading="lazy" alt="">                  post bulletin
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="url-info view-full-profile">
+          <p>
+            <a href="https://spacehey.com/profile?id=2437417">
+              <b>View Your Profile</b>
+            </a>
+          </p>
+        </div>
+        <div class="indie-box">
+          <p>
+            SpaceHey is a small, independent social network, funded by your donations.
+          </p>
+          <p>
+            <a href="/support" class="more-details">[more details]</a>
+          </p>
+          <a class="donate-link" href="https://www.paypal.com/donate/?hosted_button_id=N8SEE3KK4C538" target="_blank" rel="noopener">
+            <img class="donate-btn" src="https://static.spacehey.net/img/paypal_donate_with_cards.png" loading="lazy" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal">
+          </a>
+        </div>
+                <div class="specials">
+          <div class="heading">
+            <h4>SpaceHey Announcements</h4>
+          </div>
+          <div class="inner">
+            <div class="image">
+              <a href="https://shop.spacehey.com/">
+                <img src="https://static.spacehey.net/img/shop/slides/merch7.jpg" alt="SpaceHey Merchandise Photo" loading="lazy">
+              </a>
+            </div>
+            <div class="details" lang="en">
+              <h4><a href="https://shop.spacehey.com/">Merchandise</a></h4>
+              <p><i>Now available!</i> Support SpaceHey by buying a high-quality Shirt, Hoodie, Sweater or Cup!</p>
+              <p><b>&raquo; <a href="https://shop.spacehey.com/">Shop Now!</a></b></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="specials">
+          <div class="heading">
+            <h4>SpaceHey Updates</h4>
+          </div>
+          <div class="inner">
+            <ul class="updates">
+              <li>Fixed missing Notifications Bug</li><li>Lots of server improvements</li><li>Fixed missing Notfications Bug</li><li>Improvement: Immediately show new data after updating a blog entry, posting a comment, deleting a comment or editing a forum reply</li>              <li>[<a href="/news">View More Updates</a>]</li>
+            </ul>
+          </div>
+        </div>
+              </div>
+      <div class="col right">
+        <div class="row top-row">
+          <div class="blog-preview col">
+            <h4>Your Latest Blog Entries [<a href="https://blog.spacehey.com/edit">New Entry</a>]</h4>
+            <p><i>There are no Blog Entries yet.</i></p>          </div>
+          <div class="statistics col">
+            <div class="heading">
+              <h4 class="date">loading...</h4>
+            </div>
+            <div class="inner">
+              <div class="m-row">
+                <div class="m-col">
+                  <p>Your Friends: <br> <a href="/friends?id=2437417"><span class="count">2</span></a></p>
+                </div>
+                <div class="m-col">
+                  <p>Profile Views: <br> <span class="count">0</span></p>
+                </div>
+                <div class="m-col">
+                  <p>Joined: <br> <span class="count" title="January 24, 2024"><time class="ago">1706068607</time></span></p>
+                </div>
+                <div class="m-col m-hide">
+                  <a class="donate-link" href="https://www.paypal.com/donate/?hosted_button_id=N8SEE3KK4C538" target="_blank" rel="noopener">
+                    <img style="margin:5px auto;width:85%;aspect-ratio:147/47;" src="https://static.spacehey.net/img/paypal_donate_with_cards.png" loading="lazy" title="Support SpaceHey!" alt="Donate with PayPal">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="new-people cool">
+          <div class="top">
+            <h4>Cool New People</h4>
+            <a class="more" href="/browse?view=new">[view more]</a>
+          </div>
+          <div class="inner">
+                        <div class="person ">
+              <a href="/profile?id=2444460">
+                <p>Pacer</p>
+              </a>
+              <a href="/profile?id=2444460">
+                <img class="pfp-fallback" src="https://cdn.spacehey.net/profilepics/2444460_22246c02e451d24c855991ab372716c4.png?token=PEMxWmUHydJ2-Z5-NuwZyW0af-78QWHMGvL7VcQhKIg&expires=1706208548" alt="Pacer's profile picture" loading="lazy" style="aspect-ratio: 1474/1615;">
+              </a>
+            </div>
+                        <div class="person ">
+              <a href="/profile?id=2444407">
+                <p>Taboo_KDS</p>
+              </a>
+              <a href="/profile?id=2444407">
+                <img class="pfp-fallback" src="https://cdn.spacehey.net/profilepics/2444407_393b190f0d3543ddf1a58193225bf5ee.png?token=8m0FzudSxw_Oc6DtuoJDFk-agNcVc3dQas92ZGQewIg&expires=1706208431" alt="Taboo_KDS's profile picture" loading="lazy" style="aspect-ratio: 1/1;">
+              </a>
+            </div>
+                        <div class="person ">
+              <a href="/profile?id=2444399">
+                <p>Sof.kaa</p>
+              </a>
+              <a href="/profile?id=2444399">
+                <img class="pfp-fallback" src="https://cdn.spacehey.net/profilepics/2444399_c1da861b8a6982520f5e47c243c94195.jpg?token=6u6wW3I8p1azn_oQyXIQPr4BlAFPHv1dLKKj1SJVWao&expires=1706208419" alt="Sof.kaa's profile picture" loading="lazy" style="aspect-ratio: 1/1;">
+              </a>
+            </div>
+                        <div class="person ">
+              <a href="/profile?id=2444398">
+                <p>Cat?-</p>
+              </a>
+              <a href="/profile?id=2444398">
+                <img class="pfp-fallback" src="https://cdn.spacehey.net/profilepics/2444398_506d6c17fdce755cc241878a66d96507.jpg?token=05QutDfrUB6teDVOiERIKFfXtUDCB_40STuKZk02-64&expires=1706208254" alt="Cat?-'s profile picture" loading="lazy" style="aspect-ratio: 1/1;">
+              </a>
+            </div>
+                        <div class="view-more d-hide">
+              <a href="/browse?view=new">
+                <p>[view more]</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--<a href="/support" class="sticker-info">
+          <p class="success">
+            <b><img src="https://static.spacehey.net/icons/heart.png" class="icon" aria-hidden="true" loading="lazy" alt=""> Support SpaceHey</b> &mdash; Donate now!
+          </p>
+        </a>-->
+        <div class="bulletin-preview">
+          <div class="heading">
+            <h4>Your Friend's Bulletins</h4>
+            <a class="more" href="/bulletins">[view all]</a>
+          </div>
+          <table class="bulletin-table preview">
+            <thead>
+              <tr>
+                <th scope="col">From</th>
+                <th scope="col">Subject</th>
+              </tr>
+            </thead>
+            <tbody>
+                            <tr>
+                <td colspan="2">
+                  <i>No bulletins - <a href="/browse">add new friends</a></i>                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+                <!--<a href="/shop">
+          <div class="sticker-banner">
+            <img src="" alt="SpaceHey Stickers - now available!" loading="lazy">
+          </div>
+        </a>-->
+        <div class="friends">
+          <div class="heading">
+            <h4>Friend Requests</h4>
+          </div>
+          <div class="inner">
+                        <p><b><span class="count">0</span> Open Friend Requests</b></p>
+            <a href="/requests">
+              <button>View All Requests</button>
+            </a>
+            <br>
+                      </div>
+        </div>
+
+      </div>
     </div>
+
+  </main>
+  <footer>
+    <p>
+      brought to you by <a href="https://tibush.com/labs" target="_blank" rel="noopener">tibush labs</a>
+          </p>
+    <p>       <i>Disclaimer: This is a fan-based project and is not affiliated with MySpace&reg; in any way.</i>
+    </p>
+    <ul class="links">
+            <li><a href="https://spacehey.com/about">About</a></li>
+      <li><a href="https://spacehey.com/news">News</a></li>
+      <li><a href="https://spacehey.com/rules">Rules</a></li>
+      <li><a href="https://spacehey.com/press/?portal">Press</a></li>
+      <li><a href="https://spacehey.com/brand">Brand</a></li>
+      <li><a href="https://spacehey.com/credits">Credits</a></li>
+      <li><a href="https://rss.spacehey.com">RSS</a></li>
+      <li><a href="https://spacehey.com/tos">Terms</a></li>
+      <li><a href="https://spacehey.com/privacy">Privacy</a></li>
+      <li><a href="https://spacehey.com/imprint">Imprint</a></li>
+      <li><a href="mailto:support@spacehey.com?subject=SpaceHey.com">Contact</a></li>
+      <li><a href="https://spacehey.com/report">Report Abuse</a></li>
+      <li><a href="https://status.spacehey.com">Status</a></li>
+      <li><a href="https://shop.spacehey.com/">SpaceHey Shop</a></li>
+    </ul>
+    <p class="copyright">
+      <a href="https://spacehey.com/">&copy;2020-2024 SpaceHey.com All Rights Reserved.</a>
+    </p>
+  </footer>
+</div>
+
+<link rel="stylesheet" href="https://spacehey.com/css/important.css?c=994aafba76bf9205f4f293837ea21a3ecdfd1dbc4223ec4de3cac4e15c853257">
 </body>
 </html>
-
